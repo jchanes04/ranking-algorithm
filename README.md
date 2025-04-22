@@ -1,0 +1,5 @@
+- wish to least squares (r_j s_i - r_i s_j) for all match teams i,j
+- ideally each team's rating has equal contribution to the least squares error (it doesn't want to make teams/combinations that barely appear have very small ratings)
+    - figure out scaling factors for each match equation so this is the case
+    - or maybe add some fake strong penalty equations to the end?
+- iteratively solve by using a subset of the games to make a guess for the ratings, then improve
