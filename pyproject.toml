@@ -13,6 +13,6 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "kaleido==0.2.1",
+    "kaleido==0.1.0.post1",
     "plotly[express]>=6.0.1",
 ]
